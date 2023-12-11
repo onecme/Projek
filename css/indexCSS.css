@@ -1,0 +1,45 @@
+
+nav{
+    background-color: #2cc368;
+}
+#logo{
+    color: #ee8b24;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.carousel-item img{
+    height: 80vh;
+    width: 100%;
+}
+.nav-item:hover a {
+    opacity: 0.7; /* Adjust the opacity value as needed */
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #2cc368;
+}
+.COL{
+    background-color: #2cc368;
+    border: 0;
+    cursor: pointer; /* Menampilkan ikon kursor tangan saat mengarahkan ke tombol */
+    transition: box-shadow 0.3s ease;
+    color: white;
+}  
+button.COL:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+footer{
+    background-color: #2cc368;
+
+}
+  /* SIGN UP  */
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+
+}
